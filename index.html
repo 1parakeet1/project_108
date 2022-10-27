@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio recognition</title>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+    <body>
+        <div class="col-xs-12 heading_div text-center">
+            <h2> Sound controlled animals</h2>
+            <p>Note: play roar, bark, meowing and mooing sound to make the animals move </p> 
+           </div>
+       
+           <div class="main_div btn btn-success" style="width: 100%;">
+       <center>
+         <button class="btn btn-danger" onclick="startClassification()"> Start </button>
+         <h4 id="number_of_times">Number of times this sound was played- </h4>
+           <h3 id="sound_of"> This is the sound of-</h3>      
+            <br>
+            <img src="abc.gif" id="gif" height="250" width="250">   
+         </center>
+           </div>
+           <div class="copy_right_footer">
+           Devloped By- Parasme  
+           </div>
+       <script src="main.js"></script>
+    </body>
+</html>

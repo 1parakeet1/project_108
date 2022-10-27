@@ -1,0 +1,40 @@
+body{
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: aqua;
+}
+
+.heading_div{
+ color: red;
+}
+
+.heading_div p{
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_div button{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    width:20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main_div{
+height: 500px;
+}
+
+.copy_right_footer{
+    background-color: orange;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    line-height: 3;
+    text-shadow: 5px 5px 3px gray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
